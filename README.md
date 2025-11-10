@@ -78,17 +78,3 @@ End Sub
 4.  Click the `Add >>` button.
 5.  (Optional) Click the `Modify...` button to choose a different icon for the macro.
 6.  Click `OK`. The macro will now be available as a single-click button in your Quick Access Toolbar.
-
-## To create a GitHub repository
-
-1.  [Create a new repository](https://github.com/new) on GitHub.
-2.  Initialize a Git repository in the `word-latex-equation-converter` directory:
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/word-latex-equation-converter.git
-    git push -u origin main
-    ```
-    (Replace `YOUR_USERNAME` with your GitHub username).
